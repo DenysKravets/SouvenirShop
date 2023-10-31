@@ -488,7 +488,7 @@ public class DatabaseTest {
                 .setName("Playstation 1")
                 .setManufacturerId(dbHandler.readManufacturerByName("Sony").getId())
                 .setPrice(299.99)
-                .setDate("12-12-2000")
+                .setDate("2000-12-12")
                 .build();
 
         dbHandler.create(product);
@@ -497,7 +497,7 @@ public class DatabaseTest {
                 .setName("Playstation 2")
                 .setManufacturerId(dbHandler.readManufacturerByName("Sony").getId())
                 .setPrice(399.99)
-                .setDate("12-12-2000")
+                .setDate("2000-12-12")
                 .build();
 
         dbHandler.create(product);
@@ -506,7 +506,7 @@ public class DatabaseTest {
                 .setName("Playstation 3")
                 .setManufacturerId(dbHandler.readManufacturerByName("Nintendo").getId())
                 .setPrice(499.99)
-                .setDate("12-12-2000")
+                .setDate("2000-12-12")
                 .build();
 
         dbHandler.create(product);
@@ -547,7 +547,7 @@ public class DatabaseTest {
                 .setName("Playstation 1")
                 .setManufacturerId(manufacturer.getId())
                 .setPrice(299.99)
-                .setDate("12-12-2000")
+                .setDate("2000-12-12")
                 .build();
 
         dbHandler.create(product);
@@ -556,7 +556,7 @@ public class DatabaseTest {
                 .setName("Playstation 2")
                 .setManufacturerId(manufacturer.getId())
                 .setPrice(399.99)
-                .setDate("12-12-2000")
+                .setDate("2000-12-12")
                 .build();
 
         dbHandler.create(product);
@@ -565,7 +565,7 @@ public class DatabaseTest {
                 .setName("Playstation 3")
                 .setManufacturerId(manufacturer.getId())
                 .setPrice(499.99)
-                .setDate("12-12-2002")
+                .setDate("2002-12-12")
                 .build();
 
         dbHandler.create(product);
